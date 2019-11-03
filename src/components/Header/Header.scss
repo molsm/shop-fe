@@ -1,0 +1,17 @@
+@import 'styles/colors';
+
+header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: $c-mine-shaft;
+    justify-items: center;
+
+    .logo {
+        width: 50px;
+    }
+
+    .categories {
+        color: white;
+    }
+}
